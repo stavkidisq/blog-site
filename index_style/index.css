@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/GothamPro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamPro-Light";
+    src: url("../fonts/GothamPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: "GothamPro-Light";
+}
+
+p{
+    font-family: "GothamPro";
+}
+
+.nav-main-block{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 250px;
+
+    color: white;
+    background-color: rgb(19, 82, 255);
+}
+.nav-main-block h1{
+    margin: 0;
+}
+
+.header-up-block{
+    padding: 10px;
+    background-color: rgb(19, 82, 255);
+}
+
+.header-up-block p{
+    margin: 0;
+    color: white;
+}
+
+.header-up-block a{
+    color: white;
+}
+
+.header-bottom-block{
+    background: rgb(19, 19, 19);
+}
+
+.header-bottom-block ul{
+    text-align: right;
+    margin: 0;
+    padding: 4px;
+}
+
+.header-bottom-block li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.header-bottom-block a {
+    display: inline-block;
+    font-family: "GothamPro";
+
+    font-size: 20px;
+
+    text-decoration: none;
+    color: white; /* Цвет текста */
+    padding: 15px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+
+.header-bottom-block a:hover {
+    color: #5a5a5a; /* Цвет текста */
+}
+
+.main-up-block{
+    text-align: center;
+}
