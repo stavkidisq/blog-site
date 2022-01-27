@@ -12,10 +12,19 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "GothamPro-Black";
+    src: url("../fonts/GothamPro-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body{
     padding-left: 0;
     padding-right: 0;
     margin: 0;
+
+    background-color: rgb(194, 194, 194);
 }
 
 h1{
@@ -89,4 +98,21 @@ p{
 
 .main-up-block{
     text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+
+    background-color: white;
+
+    height: 100%;
+    margin-top: 0;
+    padding: 20px;
+}
+
+h2{
+    font-family: "GothamPro-Black";
+    margin-top: 0;
+}
+
+.main-up-block-inside{
+    text-align: left;
 }
