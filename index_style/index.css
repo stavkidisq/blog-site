@@ -41,46 +41,32 @@ p{
     align-items: center;
     justify-content: center;
 
-    height: 250px;
+    height: 500px;
 
     color: white;
-    background-color: rgb(19, 82, 255);
+    background: url("../images/background-head-image.jpg");
 }
 .nav-main-block h1{
     margin: 0;
 }
 
-.header-up-block{
-    padding: 10px;
-    background-color: rgb(19, 82, 255);
-}
-
-.header-up-block p{
-    margin: 0;
-    color: white;
-}
-
-.header-up-block a{
-    color: white;
-}
-
-.header-bottom-block{
+.header-block{
     background: rgb(19, 19, 19);
 }
 
-.header-bottom-block ul{
+.header-block ul{
     text-align: right;
     margin: 0;
     padding: 4px;
 }
 
-.header-bottom-block li{
+.header-block li{
     display: inline;
     margin-right: 5px;
     padding: 3px;
 }
 
-.header-bottom-block a {
+.header-block a {
     display: inline-block;
     font-family: "GothamPro";
 
@@ -92,7 +78,7 @@ p{
     transition: 1s linear; /* Время изменения */
 }
 
-.header-bottom-block a:hover {
+.header-block a:hover {
     color: #5a5a5a; /* Цвет текста */
 }
 
