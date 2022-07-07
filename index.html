@@ -10,14 +10,14 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a class="logo">
+        <div class="container header_container">
+            <a class="logo header_logo">
                 <img src="img/logo.svg" alt="Logo of blog">
             </a>
             <header class="header_right">
-                <nav class="nav">
-                    <ul class="nav_list">
-                        <li class="nav_item"><a href="#" class="nav_link">Главная</a></li>
+                <nav class="nav header_nav">
+                    <ul class="nav_list list-reset">
+                        <li class="nav_item"><a href="#" class="nav_link nav_link--current">Главная</a></li>
                         <li class="nav_item"><a href="#" class="nav_link">Обо мне</a></li>
                         <li class="nav_item"><a href="#" class="nav_link">Контакты</a></li>
                         <li class="nav_item"><a href="#" class="nav_link">Поиск</a></li>
@@ -32,13 +32,15 @@
             <h1 class="visually-hidden">Блог по программированию</h1>
         </section>
         <section class="content">
-            <h1 class="visually-hidden">Статьи моего блога</h1>
-            <div class="container">
+            <h2 class="visually-hidden">Статьи моего блога</h2>
+            <div class="container content_container">
                 <div class="posts">
-                    <article class="blog-post">
+                    <article class="blog-post blog-post_main">
                         <a href="#" class="blog-post_category">Категория 1</a>
                         <h3 class="blog-post_title blog-title">
-                            Управление ИТ-активами – скучная рутина или творческая задача?
+                            <a href="#" class="blog-post_link">
+                                Управление ИТ-активами – скучная рутина или творческая задача?
+                            </a>
                         </h3>
                         <p class="blog-post_description">
                             Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. 
@@ -50,12 +52,14 @@
                             21 июнь 2022
                         </time>
                     </article>
-                    <ul class="post-grid">
+                    <ul class="post-grid list-reset">
                         <li class="post-grid_item">
                             <article class="blog-post">
                                 <a href="#" class="blog-post_category">Категория 1</a>
                                 <h3 class="blog-post_title blog-title">
-                                    Управление ИТ-активами – скучная рутина или творческая задача?
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                                
                                 </h3>
                                 <p class="blog-post_description">
                                     Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. 
@@ -72,7 +76,22 @@
                             <article class="blog-post">
                                 <a href="#" class="blog-post_category">Категория 1</a>
                                 <h3 class="blog-post_title blog-title">
-                                    ITAM&SAMDay – самая настоящая удача!
+                                    <a href="#" class="blog-post_link">
+                                        ITAM&SAMDay – самая настоящая удача!
+                                    </a>                                
+                                </h3>
+                                <time class="blog-post_date">
+                                    21 июнь 2022
+                                </time>
+                            </article>
+                        </li>
+                        <li class="post-grid_item">
+                            <article class="blog-post" style="background-image: url('img/post.jpg');">
+                                <a href="#" class="blog-post_category">Очень длинная категория 2</a>
+                                <h3 class="blog-post_title blog-title">
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                                
                                 </h3>
                                 <time class="blog-post_date">
                                     21 июнь 2022
@@ -83,7 +102,9 @@
                             <article class="blog-post" style="background-image: url('')">
                                 <a href="#" class="blog-post_category">Очень длинная категория 2</a>
                                 <h3 class="blog-post_title blog-title">
-                                    Управление ИТ-активами – скучная рутина или творческая задача?
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                                
                                 </h3>
                                 <time class="blog-post_date">
                                     21 июнь 2022
@@ -94,8 +115,9 @@
                             <article class="blog-post" style="background-image: url('')">
                                 <a href="#" class="blog-post_category">Очень длинная категория 2</a>
                                 <h3 class="blog-post_title blog-title">
-                                    Управление ИТ-активами – скучная рутина или творческая задача слово слово и 
-                                    еще длинное слово после чего ...
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                               
                                 </h3>
                                 <time class="blog-post_date">
                                     21 июнь 2022
@@ -106,18 +128,79 @@
                             <article class="blog-post" style="background-image: url('')">
                                 <a href="#" class="blog-post_category">Очень длинная категория 2</a>
                                 <h3 class="blog-post_title blog-title">
-                                    ITAM&SAMDay – самая настоящая удача!                                </h3>
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                                
+                                </h3>
+                                <time class="blog-post_date">
+                                    21 июнь 2022
+                                </time>
+                            </article>
+                        </li>
+                        <li class="post-grid_item">
+                            <article class="blog-post" style="background-image: url('')">
+                                <a href="#" class="blog-post_category">Очень длинная категория 2</a>
+                                <h3 class="blog-post_title blog-title">
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                                
+                                </h3>
+                                <time class="blog-post_date">
+                                    21 июнь 2022
+                                </time>
+                            </article>
+                        </li>
+                        <li class="post-grid_item">
+                            <article class="blog-post" style="background-image: url('')">
+                                <a href="#" class="blog-post_category">Очень длинная категория 2</a>
+                                <h3 class="blog-post_title blog-title">
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>
+                                </h3>
+                                <time class="blog-post_date">
+                                    21 июнь 2022
+                                </time>
+                            </article>
+                        </li>
+                        <li class="post-grid_item">
+                            <article class="blog-post" style="background-image: url('')">
+                                <a href="#" class="blog-post_category">Очень длинная категория 2</a>
+                                <h3 class="blog-post_title blog-title">
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>                               
+                                </h3>
+                                <time class="blog-post_date">
+                                    21 июнь 2022
+                                </time>
+                            </article>
+                        </li>
+                        <li class="post-grid_item">
+                            <article class="blog-post" style="background-image: url('')">
+                                <a href="#" class="blog-post_category">Очень длинная категория 2</a>
+                                <h3 class="blog-post_title blog-title">
+                                    <a href="#" class="blog-post_link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>              
+                                </h3>
                                 <time class="blog-post_date">
                                     21 июнь 2022
                                 </time>
                             </article>
                         </li>
                     </ul>
-                    <ul class="pagination">
+                    <ul class="pagination list-reset">
                         <li class="pagination_item">
                             <a class="pagination_link pagination_link--current">1</a>
+                        </li>
+                        <li class="pagination_item">
                             <a href="#" class="pagination_link">2</a>
+                        </li>
+                        <li class="pagination_item">
                             <a href="#" class="pagination_link">3</a>
+                        </li>
+                        <li class="pagination_item">
                             <a href="#" class="pagination_link">4</a>
                         </li>
                     </ul>
@@ -125,7 +208,7 @@
                 <aside class="sidebar">
                     <div class="popular-posts">
                         <h3 class="popular-posts_title">Популярные посты</h3>
-                        <ul class="popular-posts_list">
+                        <ul class="popular-posts_list list-reset">
                             <li class="popular-posts_item">
                                 <article class="blog-post popular-post_article">
                                     <h3 class="blog-post_title blog-title">
@@ -163,10 +246,10 @@
                     <div class="subscribe">
                         <h3 class="subscribe_title blog-title">Подписка на рассылку</h3>
                         <form action="#" class="subscribe_form sub-form">
-                            <input type="email" class="sub-form_input" placeholder="email@example.com">
-                            <button class="sub-form_button">
-                                Подписаться
-                                <!--here will be svg-->
+                            <input type="email" class="sub-form_input" placeholder="Email@example.com">
+                            <button class="sub-form_button btn-reset">
+                                <span>Подписаться</span>
+                                <img src="img/sub.svg" alt="Subscribe icon">
                             </button>
                         </form>
                     </div>
@@ -174,16 +257,16 @@
             </div>
         </section>
         <footer class="footer">
-            <section class="container">
-                <a class="logo">
+            <section class="container footer_container">
+                <a class="logo footer_logo">
                     <img src="img/logo.svg" alt="Logo of blog">
                 </a>
                 <nav class="nav footer_nav">
-                    <ul class="nav_list">
-                        <li class="nav_item"><a href="#" class="nav_link">Main</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">About me</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Contacts</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Search</a></li>
+                    <ul class="nav_list list-reset">
+                        <li class="nav_item"><a href="#" class="nav_link nav_link--current">Главная</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">Обо мне</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">Контакты</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">Поиск</a></li>
                     </ul>
                 </nav>
                 <small class="footer_copy">ООО “Организация” 2022. Все права защищены</small>
